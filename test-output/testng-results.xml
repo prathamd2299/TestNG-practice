@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-05T10:13:19 IST" name="Suite" finished-at="2023-08-05T10:13:19 IST" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2023-08-05T10:13:19 IST" name="Test" finished-at="2023-08-05T10:13:19 IST" duration-ms="63">
+      <class name="testng.Parameterization">
+        <test-method signature="salesforce(java.lang.String,java.lang.String)[pri:0, instance:testng.Parameterization@368f2016]" started-at="2023-08-05T10:13:19 IST" name="salesforce" finished-at="2023-08-05T10:13:19 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prat@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesforce -->
+      </class> <!-- testng.Parameterization -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
