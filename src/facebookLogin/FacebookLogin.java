@@ -12,6 +12,8 @@ public class FacebookLogin {
 
 	@Test
 	public void launchBrowser() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\admin\\.cache\\selenium\\chromedriver\\win64\\116.0.5845.96\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.navigate().to("https://www.facebook.com/login/");
 		System.out.println(driver.getTitle());
@@ -19,6 +21,7 @@ public class FacebookLogin {
 
 	@Test
 	public void enterLoginDetails() throws InterruptedException {
+		launchBrowser();
 		WebElement un = driver.findElement(By.xpath("//input[@id='email']"));
 		un.sendKeys("prathameshdhasade2015@gmail.com");
 		WebElement pwd = driver.findElement(By.xpath("//input[@id='pass']"));

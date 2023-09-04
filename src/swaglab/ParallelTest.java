@@ -13,6 +13,8 @@ public class ParallelTest {
 
 	@Test
 	public void verifyTitle() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\admin\\.cache\\selenium\\chromedriver\\win64\\116.0.5845.96\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/v1/");
 		String title = driver.getTitle();
